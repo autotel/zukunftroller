@@ -1,4 +1,4 @@
-update=27-04-2017 10:48:14
+update=27-04-2017 19:24:33
 version=1
 last_client=kicad
 [pcbnew]
@@ -61,3 +61,6 @@ LibName29=valves
 LibName30=Custom libraries/4067 for 24-Pin SSOP
 LibName31=Custom libraries/Sparkfun-silicon-buttons-pad
 LibName32=Custom libraries/testpad
+LibName33=arduinos/ArduProMiniTKB
+LibName34=Custom libraries/6N138 OPTOCOUPLER
+LibName35=arduinos/arduino_shields
