@@ -31,11 +31,12 @@ LIBS:valves
 LIBS:4067 for 24-Pin SSOP
 LIBS:Sparkfun-silicon-buttons-pad
 LIBS:testpad
+LIBS:zukunftroller-cache
 EELAYER 25 0
 EELAYER END
 $Descr A2 16535 23386 portrait
 encoding utf-8
-Sheet 1 1
+Sheet 1 17
 Title ""
 Date ""
 Rev ""
@@ -91,70 +92,296 @@ Text Label 4200 1350 1    60   ~ 0
 MUXA_INHIBIT
 Text Label 6150 1350 1    60   ~ 0
 MUXB_INHIBIT
-Text Notes 1000 3000 0    60   ~ 0
+Text Notes 900  1200 0    60   ~ 0
 ADDR: 0X00
 Text Label 6550 2550 3    60   ~ 0
-%A
+MUXB_CONN_0
 Text Label 6450 2550 3    60   ~ 0
-%A
+MUXB_CONN_1
 Text Label 6350 2550 3    60   ~ 0
-%A
+MUXB_CONN_2
 Text Label 6250 2550 3    60   ~ 0
-%A
+MUXB_CONN_3
 Text Label 6150 2550 3    60   ~ 0
-%A
+MUXB_CONN_4
 Text Label 6050 2550 3    60   ~ 0
-%A
+MUXB_CONN_5
 Text Label 5950 2550 3    60   ~ 0
-%A
+MUXB_CONN_6
 Text Label 5850 2550 3    60   ~ 0
-%A
+MUXB_CONN_7
 Text Label 5750 2550 3    60   ~ 0
-%A
+MUXB_CONN_8
 Text Label 5650 2550 3    60   ~ 0
-%A
+MUXB_CONN_9
 Text Label 5550 2550 3    60   ~ 0
-%A
+MUXB_CONN_A
 Text Label 5450 2550 3    60   ~ 0
-%A
+MUXB_CONN_B
 Text Label 5350 2550 3    60   ~ 0
-%A
+MUXB_CONN_C
 Text Label 5250 2550 3    60   ~ 0
-%A
+MUXB_CONN_D
 Text Label 5150 2550 3    60   ~ 0
-%A
+MUXB_CONN_E
 Text Label 5050 2550 3    60   ~ 0
-%A
+MUXB_CONN_F
 Text Label 4600 2550 3    60   ~ 0
-%A
+MUXA_CONN_0
 Text Label 4500 2550 3    60   ~ 0
-%A
+MUXA_CONN_1
 Text Label 4400 2550 3    60   ~ 0
-%A
+MUXA_CONN_2
 Text Label 4300 2550 3    60   ~ 0
-%A
+MUXA_CONN_3
 Text Label 4200 2550 3    60   ~ 0
-%A
+MUXA_CONN_4
 Text Label 4100 2550 3    60   ~ 0
-%A
+MUXA_CONN_5
 Text Label 4000 2550 3    60   ~ 0
-%A
+MUXA_CONN_6
 Text Label 3900 2550 3    60   ~ 0
-%A
+MUXA_CONN_7
 Text Label 3800 2550 3    60   ~ 0
-%A
+MUXA_CONN_8
 Text Label 3700 2550 3    60   ~ 0
-%A
+MUXA_CONN_9
 Text Label 3600 2550 3    60   ~ 0
-%A
+MUXA_CONN_A
 Text Label 3500 2550 3    60   ~ 0
-%A
+MUXA_CONN_B
 Text Label 3400 2550 3    60   ~ 0
-%A
+MUXA_CONN_C
 Text Label 3300 2550 3    60   ~ 0
-%A
+MUXA_CONN_D
 Text Label 3200 2550 3    60   ~ 0
-%A
+MUXA_CONN_E
 Text Label 3100 2550 3    60   ~ 0
-%A
+MUXA_CONN_F
+Text Label 1500 1400 2    60   ~ 0
+MUXA_CONN_0
+Text Label 1500 1500 2    60   ~ 0
+MUXB_CONN_0
+$Sheet
+S 1650 4250 500  450 
+U 590159E1
+F0 "ADDR_0X00" 60
+F1 "ADDR_0X00.sch" 60
+F2 "IN_A" I L 1650 4350 60 
+F3 "IN_B" I L 1650 4500 60 
+$EndSheet
+Text Label 1650 4350 2    60   ~ 0
+MUXA_CONN_0
+Text Label 1650 4500 2    60   ~ 0
+MUXA_CONN_0
+Text GLabel 1600 2050 0    60   Input ~ 0
+G_VCC
+Text GLabel 1600 2250 0    60   Input ~ 0
+G_GND
+$Comp
+L VCC #PWR?
+U 1 1 59017190
+P 1750 2050
+F 0 "#PWR?" H 1750 1900 50  0001 C CNN
+F 1 "VCC" H 1750 2200 50  0000 C CNN
+F 2 "" H 1750 2050 50  0000 C CNN
+F 3 "" H 1750 2050 50  0000 C CNN
+	1    1750 2050
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 590171B4
+P 1750 2250
+F 0 "#PWR?" H 1750 2000 50  0001 C CNN
+F 1 "GND" H 1750 2100 50  0000 C CNN
+F 2 "" H 1750 2250 50  0000 C CNN
+F 3 "" H 1750 2250 50  0000 C CNN
+	1    1750 2250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1600 2050 1750 2050
+Wire Wire Line
+	1600 2250 1750 2250
+$Sheet
+S 1650 4950 500  450 
+U 590186ED
+F0 "ADDR_0X00" 60
+F1 "ADDR_0X00.sch" 60
+F2 "IN_A" I L 1650 5050 60 
+F3 "IN_B" I L 1650 5200 60 
+$EndSheet
+Text Label 1650 5050 2    60   ~ 0
+MUXA_CONN_0
+Text Label 1650 5200 2    60   ~ 0
+MUXA_CONN_0
+$Sheet
+S 1650 5650 500  450 
+U 59018903
+F0 "ADDR_0X00" 60
+F1 "ADDR_0X00.sch" 60
+F2 "IN_A" I L 1650 5750 60 
+F3 "IN_B" I L 1650 5900 60 
+$EndSheet
+Text Label 1650 5750 2    60   ~ 0
+MUXA_CONN_0
+Text Label 1650 5900 2    60   ~ 0
+MUXA_CONN_0
+$Sheet
+S 1650 6350 500  450 
+U 59018909
+F0 "ADDR_0X00" 60
+F1 "ADDR_0X00.sch" 60
+F2 "IN_A" I L 1650 6450 60 
+F3 "IN_B" I L 1650 6600 60 
+$EndSheet
+Text Label 1650 6450 2    60   ~ 0
+MUXA_CONN_0
+Text Label 1650 6600 2    60   ~ 0
+MUXA_CONN_0
+$Sheet
+S 1650 7100 500  450 
+U 59018EBF
+F0 "ADDR_0X00" 60
+F1 "ADDR_0X00.sch" 60
+F2 "IN_A" I L 1650 7200 60 
+F3 "IN_B" I L 1650 7350 60 
+$EndSheet
+Text Label 1650 7200 2    60   ~ 0
+MUXA_CONN_0
+Text Label 1650 7350 2    60   ~ 0
+MUXA_CONN_0
+$Sheet
+S 1650 7800 500  450 
+U 59018EC5
+F0 "ADDR_0X00" 60
+F1 "ADDR_0X00.sch" 60
+F2 "IN_A" I L 1650 7900 60 
+F3 "IN_B" I L 1650 8050 60 
+$EndSheet
+Text Label 1650 7900 2    60   ~ 0
+MUXA_CONN_0
+Text Label 1650 8050 2    60   ~ 0
+MUXA_CONN_0
+$Sheet
+S 1650 8500 500  450 
+U 59018ECB
+F0 "ADDR_0X00" 60
+F1 "ADDR_0X00.sch" 60
+F2 "IN_A" I L 1650 8600 60 
+F3 "IN_B" I L 1650 8750 60 
+$EndSheet
+Text Label 1650 8600 2    60   ~ 0
+MUXA_CONN_0
+Text Label 1650 8750 2    60   ~ 0
+MUXA_CONN_0
+$Sheet
+S 1650 9200 500  450 
+U 59018ED1
+F0 "ADDR_0X00" 60
+F1 "ADDR_0X00.sch" 60
+F2 "IN_A" I L 1650 9300 60 
+F3 "IN_B" I L 1650 9450 60 
+$EndSheet
+Text Label 1650 9300 2    60   ~ 0
+MUXA_CONN_0
+Text Label 1650 9450 2    60   ~ 0
+MUXA_CONN_0
+$Sheet
+S 1650 9900 500  450 
+U 5901A083
+F0 "ADDR_0X00" 60
+F1 "ADDR_0X00.sch" 60
+F2 "IN_A" I L 1650 10000 60 
+F3 "IN_B" I L 1650 10150 60 
+$EndSheet
+Text Label 1650 10000 2    60   ~ 0
+MUXA_CONN_0
+Text Label 1650 10150 2    60   ~ 0
+MUXA_CONN_0
+$Sheet
+S 1650 10600 500  450 
+U 5901A089
+F0 "ADDR_0X00" 60
+F1 "ADDR_0X00.sch" 60
+F2 "IN_A" I L 1650 10700 60 
+F3 "IN_B" I L 1650 10850 60 
+$EndSheet
+Text Label 1650 10700 2    60   ~ 0
+MUXA_CONN_0
+Text Label 1650 10850 2    60   ~ 0
+MUXA_CONN_0
+$Sheet
+S 1650 11300 500  450 
+U 5901A08F
+F0 "ADDR_0X00" 60
+F1 "ADDR_0X00.sch" 60
+F2 "IN_A" I L 1650 11400 60 
+F3 "IN_B" I L 1650 11550 60 
+$EndSheet
+Text Label 1650 11400 2    60   ~ 0
+MUXA_CONN_0
+Text Label 1650 11550 2    60   ~ 0
+MUXA_CONN_0
+$Sheet
+S 1650 12000 500  450 
+U 5901A095
+F0 "ADDR_0X00" 60
+F1 "ADDR_0X00.sch" 60
+F2 "IN_A" I L 1650 12100 60 
+F3 "IN_B" I L 1650 12250 60 
+$EndSheet
+Text Label 1650 12100 2    60   ~ 0
+MUXA_CONN_0
+Text Label 1650 12250 2    60   ~ 0
+MUXA_CONN_0
+$Sheet
+S 1650 12750 500  450 
+U 5901A09B
+F0 "ADDR_0X00" 60
+F1 "ADDR_0X00.sch" 60
+F2 "IN_A" I L 1650 12850 60 
+F3 "IN_B" I L 1650 13000 60 
+$EndSheet
+Text Label 1650 12850 2    60   ~ 0
+MUXA_CONN_0
+Text Label 1650 13000 2    60   ~ 0
+MUXA_CONN_0
+$Sheet
+S 1650 13450 500  450 
+U 5901A0A1
+F0 "ADDR_0X00" 60
+F1 "ADDR_0X00.sch" 60
+F2 "IN_A" I L 1650 13550 60 
+F3 "IN_B" I L 1650 13700 60 
+$EndSheet
+Text Label 1650 13550 2    60   ~ 0
+MUXA_CONN_0
+Text Label 1650 13700 2    60   ~ 0
+MUXA_CONN_0
+$Sheet
+S 1650 14150 500  450 
+U 5901A0A7
+F0 "ADDR_0X00" 60
+F1 "ADDR_0X00.sch" 60
+F2 "IN_A" I L 1650 14250 60 
+F3 "IN_B" I L 1650 14400 60 
+$EndSheet
+Text Label 1650 14250 2    60   ~ 0
+MUXA_CONN_0
+Text Label 1650 14400 2    60   ~ 0
+MUXA_CONN_0
+$Sheet
+S 1650 14850 500  450 
+U 5901A0AD
+F0 "ADDR_0X00" 60
+F1 "ADDR_0X00.sch" 60
+F2 "IN_A" I L 1650 14950 60 
+F3 "IN_B" I L 1650 15100 60 
+$EndSheet
+Text Label 1650 14950 2    60   ~ 0
+MUXA_CONN_0
+Text Label 1650 15100 2    60   ~ 0
+MUXA_CONN_0
 $EndSCHEMATC
