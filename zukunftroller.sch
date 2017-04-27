@@ -1148,9 +1148,9 @@ F 3 "" H 8850 6100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 11250 11000 2    60   ~ 0
-MUXB_CONN_F
+MUXA_CONN_F
 Text Notes 9100 10300 0    60   ~ 0
-OLED I2C SCREEN\nADDRRESS: \n0X8_ I2C I2C A\n0X_F I2C I2C B *note that is shared; hoping doesn't make trouble
+OLED I2C SCREEN\nADDRRESS: \n0X8_ I2C I2C SDA\n0X_F I2C I2C SCL
 Text Label 11550 1850 2    60   ~ 0
 MUXA_ADDR3
 Text Label 11550 1950 2    60   ~ 0
@@ -1277,9 +1277,9 @@ $EndComp
 Text Label 11800 10800 0    60   ~ 0
 NC
 Text Label 11800 10900 0    60   ~ 0
-DIN
+DIN-sda
 Text Label 11800 11000 0    60   ~ 0
-CLK
+CLK-scl
 Text Label 11800 11100 0    60   ~ 0
 CS
 Text Label 11800 11200 0    60   ~ 0
@@ -1287,7 +1287,7 @@ D/C
 Text Label 11800 11300 0    60   ~ 0
 RES
 Text Label 11250 10900 2    60   ~ 0
-MUXA_CONN_5
+MUXB_CONN_8
 $Comp
 L GND #PWR?
 U 1 1 59528957
@@ -1810,7 +1810,7 @@ F 3 "" H 12750 8800 50  0000 C CNN
 	1    12750 8800
 	-1   0    0    1   
 $EndComp
-Text Notes 12200 9300 0    60   ~ 0
+Text Notes 13250 8450 0    60   ~ 0
 _cs is normal low, therefore\nMUXA_CONN7 is low if the\nscreen 0 is selected
 Text Label 10450 8250 2    60   ~ 0
 MUXA_CONN_F
@@ -1822,9 +1822,9 @@ Text Notes 7650 9050 0    60   ~ 0
 ALLOCATION (pins used here)\nMUXB_CONN_4
 Text Notes 9100 4050 0    60   ~ 0
 LED SERIAL INTERFACE\nADDRRESS: \n0X5_\n0X_E
-Text Notes 11600 7500 0    60   ~ 0
+Text Notes 12400 9850 0    60   ~ 0
 ALLOCATION (pins used here)\nMUXB_CONN_6\nMUXB_CONN_7\nMUXA_CONN_F
-Text Notes 11650 3950 0    60   ~ 0
+Text Notes 12400 4050 0    60   ~ 0
 ALLOCATION (pins used here)\nMUXB_CONN_5\nMUXA_CONN_E
 Connection ~ 12500 4850
 Connection ~ 12500 4750
@@ -1996,9 +1996,9 @@ Wire Wire Line
 	10700 2350 10950 2350
 Text Label 10450 8950 2    60   ~ 0
 MUXA_CONN_F
-Text Notes 12400 10350 0    60   ~ 0
-ALLOCATION (pins used here)\nMUXB_CONN_8\n*MUXA_CONN_F
-Text Notes 12400 12300 0    60   ~ 0
+Text Notes 12400 11850 0    60   ~ 0
+ALLOCATION (pins used here)\nMUXB_CONN_8\n*MUXA_CONN_F\n\nSCL line is shared with other clock,\nit shouldn't affect i2c communication
+Text Notes 12400 13800 0    60   ~ 0
 ALLOCATION (pins used here)\nMUXB_CONN_9   ->   MUXB-CONN_C
 Text Label 10500 12900 2    60   ~ 0
 MUXB_CONN_A
