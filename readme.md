@@ -1,7 +1,8 @@
 #Building Controller shematic
 ##Pin allocation
-``
+
 Inputs/ outputs requeridos
+```
                                 1: 25 botones en circulo
                                   |  2: 11 botones de modo
                                   |  |  3: 2 terminales de led independientes
@@ -25,5 +26,5 @@ Multiplexor Directo (n=32)--------|--|--|--|--| 3|--|--| 4| 2| 1|--|--|--| 3  | 
 Multiplexor en Matrix (256-n^2)---|25|11|--|--|--|12|--|--|--|--|--|--|--|--  | 48/(256-13^2)
 Puerto serial in Arduino (1)------|--|--|--|--|--|--|--|--|--|--| 1|--|--|--  | 1/1
 Shift register (8 o 16)-----------|--|--| 2|11|--|--|--|--|--|--|--|--|--|--  | 13/16
-``
+```
 
