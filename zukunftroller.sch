@@ -95,8 +95,6 @@ Text Label 3550 1450 1    60   ~ 0
 MUXA_INHIBIT
 Text Label 5500 1450 1    60   ~ 0
 MUXB_INHIBIT
-Text Notes 900  1200 0    60   ~ 0
-ADDR: 0X00
 Text Label 5900 2650 3    60   ~ 0
 MUXB_CONN_0
 Text Label 5800 2650 3    60   ~ 0
@@ -161,10 +159,6 @@ Text Label 2550 2650 3    60   ~ 0
 MUXA_CONN_E
 Text Label 2450 2650 3    60   ~ 0
 MUXA_CONN_F
-Text Label 1500 1400 2    60   ~ 0
-MUXA_CONN_0
-Text Label 1500 1500 2    60   ~ 0
-MUXB_CONN_0
 $Sheet
 S 1650 4250 500  450 
 U 590159E1
@@ -177,32 +171,6 @@ Text Label 1650 4350 2    60   ~ 0
 MUXA_CONN_0
 Text Label 1650 4500 2    60   ~ 0
 MUXB_CONN_0
-Text GLabel 1600 2050 0    60   Input ~ 0
-G_VCC
-Text GLabel 1600 2250 0    60   Input ~ 0
-G_GND
-$Comp
-L VCC #PWR01
-U 1 1 59017190
-P 1750 2050
-F 0 "#PWR01" H 1750 1900 50  0001 C CNN
-F 1 "VCC" H 1750 2200 50  0000 C CNN
-F 2 "" H 1750 2050 50  0000 C CNN
-F 3 "" H 1750 2050 50  0000 C CNN
-	1    1750 2050
-	0    1    1    0   
-$EndComp
-$Comp
-L GND #PWR02
-U 1 1 590171B4
-P 1750 2250
-F 0 "#PWR02" H 1750 2000 50  0001 C CNN
-F 1 "GND" H 1750 2100 50  0000 C CNN
-F 2 "" H 1750 2250 50  0000 C CNN
-F 3 "" H 1750 2250 50  0000 C CNN
-	1    1750 2250
-	0    -1   -1   0   
-$EndComp
 Text Label 5400 4350 2    60   ~ 0
 MUXA_CONN_0
 $Sheet
@@ -1603,9 +1571,9 @@ Text Label 11750 1450 0    60   ~ 0
 PB2
 Text Label 11750 1350 0    60   ~ 0
 PB3
-Text Notes 7200 700  0    60   ~ 0
+Text Notes 9100 700  0    60   ~ 0
 ARDUINO TO HARDWARE CONNECTIONS
-Text Notes 2200 700  0    60   ~ 0
+Text Notes 2400 700  0    60   ~ 0
 MUX SECTION
 $Comp
 L CONN_01X01 P?
@@ -1838,10 +1806,6 @@ Connection ~ 12100 5950
 Wire Wire Line
 	10450 4750 10450 5050
 Wire Wire Line
-	1600 2050 1750 2050
-Wire Wire Line
-	1600 2250 1750 2250
-Wire Wire Line
 	12100 5450 12250 5450
 Wire Wire Line
 	12250 5450 12250 5750
@@ -2023,4 +1987,6 @@ F 3 "" H 6600 1400 50  0000 C CNN
 	1    6600 1400
 	1    0    0    -1  
 $EndComp
+Text Notes 12850 2400 0    60   ~ 0
+example code for checking button number 1\nDDRB|=0xF0;\nDDRD|=0x0F;\n\n//SET MUX\nchar mask=0XF0&PIND;\nPORTD=mask & 0X1<<4;\nchar mask=0X0F&PINB;\nPORTB=mask & 0X0;\n\n//SET MUXA HIGH\ndigitalWrite(A0,HIGH);\n\n//READ RESULTING VALUE IN ANALOG\nboolean status=digitalRead(A1);
 $EndSCHEMATC
