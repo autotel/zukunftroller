@@ -1462,8 +1462,8 @@ F 3 "" H 10300 12800 50  0000 C CNN
 	1    10300 12800
 	0    1    1    0   
 $EndComp
-Text Notes 9100 12350 0    60   ~ 0
-ENCODERS\nADDRRESS: \n0X6_\n0X7_
+Text Notes 9100 12550 0    60   ~ 0
+ENCODERS\nADDRRESS: \n0X9_\n0XA_\n0XB_\n0XC_
 Text Label 10500 12700 2    60   ~ 0
 MUXB_CONN_9
 $Comp
@@ -1962,7 +1962,7 @@ Text Label 10450 8950 2    60   ~ 0
 MUXA_CONN_F
 Text Notes 13900 10450 0    60   ~ 0
 ALLOCATION (pins used here)\nMUXB_CONN_8\n*MUXA_CONN_F\n\nSCL line is shared with other clock,\nit shouldn't affect i2c communication
-Text Notes 12400 13800 0    60   ~ 0
+Text Notes 9600 14050 0    60   ~ 0
 ALLOCATION (pins used here)\nMUXB_CONN_9   ->   MUXB-CONN_C
 Text Label 10500 12900 2    60   ~ 0
 MUXB_CONN_A
@@ -2200,4 +2200,39 @@ F 3 "" H 11100 8950 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	10950 8950 11000 8950
+Wire Notes Line
+	11700 11950 11700 14350
+Text Notes 11750 12450 0    60   ~ 0
+VACANT CONNECTIONS\nADDRRESS: \n0XD_\n0XE_\n0XF_
+Text Label 12800 12950 2    60   ~ 0
+MUXB_CONN_D
+Text Label 12800 13050 2    60   ~ 0
+MUXB_CONN_E
+Text Label 12800 13150 2    60   ~ 0
+MUXB_CONN_F
+$Comp
+L CONN_02X03 P?
+U 1 1 591763CF
+P 13050 13050
+F 0 "P?" H 13050 13250 50  0000 C CNN
+F 1 "CONN_02X03" H 13050 12850 50  0000 C CNN
+F 2 "" H 13050 11850 50  0000 C CNN
+F 3 "" H 13050 11850 50  0000 C CNN
+	1    13050 13050
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR?
+U 1 1 5917816F
+P 13300 12950
+F 0 "#PWR?" H 13300 12800 50  0001 C CNN
+F 1 "VCC" H 13300 13100 50  0000 C CNN
+F 2 "" H 13300 12950 50  0000 C CNN
+F 3 "" H 13300 12950 50  0000 C CNN
+	1    13300 12950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13300 12950 13300 13150
+Connection ~ 13300 13050
 $EndSCHEMATC
