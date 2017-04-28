@@ -1,4 +1,4 @@
-update=27-04-2017 19:24:33
+update=28-04-2017 23:28:33
 version=1
 last_client=kicad
 [pcbnew]
@@ -64,3 +64,13 @@ LibName32=Custom libraries/testpad
 LibName33=arduinos/ArduProMiniTKB
 LibName34=Custom libraries/6N138 OPTOCOUPLER
 LibName35=arduinos/arduino_shields
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
