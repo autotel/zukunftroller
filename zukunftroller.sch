@@ -1790,7 +1790,7 @@ Text Notes 7650 9050 0    60   ~ 0
 ALLOCATION (pins used here)\nMUXB_CONN_4
 Text Notes 9100 4050 0    60   ~ 0
 LED SERIAL INTERFACE\nADDRRESS: \n0X5_\n0X_E
-Text Notes 12400 9850 0    60   ~ 0
+Text Notes 12400 7500 0    60   ~ 0
 ALLOCATION (pins used here)\nMUXB_CONN_6\nMUXB_CONN_7\nMUXA_CONN_F
 Text Notes 12400 4050 0    60   ~ 0
 ALLOCATION (pins used here)\nMUXB_CONN_5\nMUXA_CONN_E
@@ -1960,7 +1960,7 @@ Wire Wire Line
 	10700 2350 10950 2350
 Text Label 10450 8950 2    60   ~ 0
 MUXA_CONN_F
-Text Notes 13900 10450 0    60   ~ 0
+Text Notes 12400 10550 0    60   ~ 0
 ALLOCATION (pins used here)\nMUXB_CONN_8\n*MUXA_CONN_F\n\nSCL line is shared with other clock,\nit shouldn't affect i2c communication
 Text Notes 9600 14050 0    60   ~ 0
 ALLOCATION (pins used here)\nMUXB_CONN_9   ->   MUXB-CONN_C
@@ -2235,4 +2235,52 @@ $EndComp
 Wire Wire Line
 	13300 12950 13300 13150
 Connection ~ 13300 13050
+$Comp
+L R R?
+U 1 1 591BC022
+P 2250 1450
+F 0 "R?" V 2330 1450 50  0000 C CNN
+F 1 "R" V 2250 1450 50  0000 C CNN
+F 2 "" V 2180 1450 50  0000 C CNN
+F 3 "" H 2250 1450 50  0000 C CNN
+	1    2250 1450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2400 1450 2650 1450
+$Comp
+L R R?
+U 1 1 591C123D
+P 4200 1450
+F 0 "R?" V 4280 1450 50  0000 C CNN
+F 1 "R" V 4200 1450 50  0000 C CNN
+F 2 "" V 4130 1450 50  0000 C CNN
+F 3 "" H 4200 1450 50  0000 C CNN
+	1    4200 1450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4350 1450 4600 1450
+$Comp
+L GND #PWR?
+U 1 1 591C16C3
+P 4050 1450
+F 0 "#PWR?" H 4050 1200 50  0001 C CNN
+F 1 "GND" H 4050 1300 50  0000 C CNN
+F 2 "" H 4050 1450 50  0000 C CNN
+F 3 "" H 4050 1450 50  0000 C CNN
+	1    4050 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 591C1975
+P 2100 1450
+F 0 "#PWR?" H 2100 1200 50  0001 C CNN
+F 1 "GND" H 2100 1300 50  0000 C CNN
+F 2 "" H 2100 1450 50  0000 C CNN
+F 3 "" H 2100 1450 50  0000 C CNN
+	1    2100 1450
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
