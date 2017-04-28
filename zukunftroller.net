@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Users\joaquin\repositories\zukunftroller\zukunftroller.sch)
-    (date "28-04-2017 21:49:21")
+    (date "28-04-2017 22:00:29")
     (tool "Eeschema 4.0.4-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -479,13 +479,13 @@
   (components
     (comp (ref U1)
       (value CD74HCT4067)
-      (footprint SparkFun-PowerIC:SSOP24)
+      (footprint SparkFun-DigitalIC:DIL24-6)
       (libsource (lib "4067 for 24-Pin SSOP") (part CD74HCT4067))
       (sheetpath (names /) (tstamps /))
       (tstamp 59014DEE))
     (comp (ref U2)
       (value CD74HCT4067)
-      (footprint SparkFun-PowerIC:SSOP24)
+      (footprint SparkFun-DigitalIC:DIL24-6)
       (libsource (lib "4067 for 24-Pin SSOP") (part CD74HCT4067))
       (sheetpath (names /) (tstamps /))
       (tstamp 59014EE4))
