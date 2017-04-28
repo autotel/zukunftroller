@@ -168,7 +168,7 @@ AR Path="/59018903/59015B29" Ref="D47"  Part="1"
 AR Path="/590186ED/59015B29" Ref="D48"  Part="1" 
 F 0 "D1" H 2350 2450 50  0000 C CNN
 F 1 "D" H 2350 2250 50  0000 C CNN
-F 2 "Diodes_ThroughHole:D_5KPW_P7.62mm_Vertical_AnodeUp" H 2350 2350 50  0001 C CNN
+F 2 "Diodes_ThroughHole:D_A-405_P7.62mm_Horizontal" H 2350 2350 50  0001 C CNN
 F 3 "" H 2350 2350 50  0000 C CNN
 	1    2350 2350
 	1    0    0    -1  
