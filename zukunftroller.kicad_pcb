@@ -928,7 +928,7 @@
   )
 
   (module Buttons_Switches_ThroughHole:SW_PUSH_6mm (layer F.Cu) (tedit 58134C96) (tstamp 5901AC92)
-    (at 328.93 170.18)
+    (at 86.21 459.05)
     (descr https://www.omron.com/ecb/products/pdf/en-b3f.pdf)
     (tags "tact sw push 6mm")
     (path /5903A7DD/59015A81)
@@ -1120,7 +1120,7 @@
   )
 
   (module Buttons_Switches_ThroughHole:SW_PUSH_6mm (layer F.Cu) (tedit 58134C96) (tstamp 5901ACB2)
-    (at 367.03 180.34)
+    (at 88.9 408.94)
     (descr https://www.omron.com/ecb/products/pdf/en-b3f.pdf)
     (tags "tact sw push 6mm")
     (path /5903A7C5/59015A81)
@@ -1168,7 +1168,7 @@
   )
 
   (module Buttons_Switches_ThroughHole:SW_PUSH_6mm (layer F.Cu) (tedit 58134C96) (tstamp 5901ACBA)
-    (at 127 458.47)
+    (at 106.53 481.33)
     (descr https://www.omron.com/ecb/products/pdf/en-b3f.pdf)
     (tags "tact sw push 6mm")
     (path /5903A7BF/59015A81)
@@ -1552,7 +1552,7 @@
   )
 
   (module Buttons_Switches_ThroughHole:SW_PUSH_6mm (layer F.Cu) (tedit 58134C96) (tstamp 5901AD0A)
-    (at 321.31 218.44)
+    (at 107.8 453.39)
     (descr https://www.omron.com/ecb/products/pdf/en-b3f.pdf)
     (tags "tact sw push 6mm")
     (path /59028C9B/59015A81)
@@ -1744,7 +1744,7 @@
   )
 
   (module Buttons_Switches_ThroughHole:SW_PUSH_6mm (layer F.Cu) (tedit 58134C96) (tstamp 5901AD2A)
-    (at 270.51 228.6)
+    (at 117.96 410.21)
     (descr https://www.omron.com/ecb/products/pdf/en-b3f.pdf)
     (tags "tact sw push 6mm")
     (path /59028C83/59015A81)
@@ -2176,7 +2176,7 @@
   )
 
   (module Buttons_Switches_ThroughHole:SW_PUSH_6mm (layer F.Cu) (tedit 58134C96) (tstamp 5901AD82)
-    (at 279.4 243.84)
+    (at 68.43 464.82)
     (descr https://www.omron.com/ecb/products/pdf/en-b3f.pdf)
     (tags "tact sw push 6mm")
     (path /59018ECB/59015A81)
@@ -2368,7 +2368,7 @@
   )
 
   (module Buttons_Switches_ThroughHole:SW_PUSH_6mm (layer F.Cu) (tedit 58134C96) (tstamp 5901ADA2)
-    (at 254 226.06)
+    (at 67.16 406.98)
     (descr https://www.omron.com/ecb/products/pdf/en-b3f.pdf)
     (tags "tact sw push 6mm")
     (path /59018903/59015A81)
@@ -2944,7 +2944,7 @@
   )
 
   (module Diodes_ThroughHole:D_A-405_P7.62mm_Horizontal (layer F.Cu) (tedit 5877C982) (tstamp 59033DD1)
-    (at 85.09 227.33)
+    (at 85.09 452.12)
     (descr "D, A-405 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=5.2*2.7mm^2, , http://www.diodes.com/_files/packages/A-405.pdf")
     (tags "D A-405 series Axial Horizontal pin pitch 7.62mm  length 5.2mm diameter 2.7mm")
     (path /5903A7DD/59015B29)
@@ -3224,7 +3224,7 @@
   )
 
   (module Diodes_ThroughHole:D_A-405_P7.62mm_Horizontal (layer F.Cu) (tedit 5877C982) (tstamp 59033DF4)
-    (at 392.43 224.79)
+    (at 88.9 421.64)
     (descr "D, A-405 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=5.2*2.7mm^2, , http://www.diodes.com/_files/packages/A-405.pdf")
     (tags "D A-405 series Axial Horizontal pin pitch 7.62mm  length 5.2mm diameter 2.7mm")
     (path /591B92F2)
@@ -3544,7 +3544,7 @@
   )
 
   (module Diodes_ThroughHole:D_A-405_P7.62mm_Horizontal (layer F.Cu) (tedit 5877C982) (tstamp 59033E1C)
-    (at 120.65 257.81)
+    (at 105.41 441.96)
     (descr "D, A-405 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=5.2*2.7mm^2, , http://www.diodes.com/_files/packages/A-405.pdf")
     (tags "D A-405 series Axial Horizontal pin pitch 7.62mm  length 5.2mm diameter 2.7mm")
     (path /59028C9B/59015B29)
@@ -3704,7 +3704,7 @@
   )
 
   (module Diodes_ThroughHole:D_A-405_P7.62mm_Horizontal (layer F.Cu) (tedit 5877C982) (tstamp 59033E30)
-    (at 120.65 197.485)
+    (at 115.57 422.91)
     (descr "D, A-405 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=5.2*2.7mm^2, , http://www.diodes.com/_files/packages/A-405.pdf")
     (tags "D A-405 series Axial Horizontal pin pitch 7.62mm  length 5.2mm diameter 2.7mm")
     (path /59028C83/59015B29)
@@ -4104,7 +4104,7 @@
   )
 
   (module Diodes_ThroughHole:D_A-405_P7.62mm_Horizontal (layer F.Cu) (tedit 5877C982) (tstamp 59033E67)
-    (at 55.88 217.16)
+    (at 67.31 449.58)
     (descr "D, A-405 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=5.2*2.7mm^2, , http://www.diodes.com/_files/packages/A-405.pdf")
     (tags "D A-405 series Axial Horizontal pin pitch 7.62mm  length 5.2mm diameter 2.7mm")
     (path /59018ECB/59015B29)
@@ -4264,7 +4264,7 @@
   )
 
   (module Diodes_ThroughHole:D_A-405_P7.62mm_Horizontal (layer F.Cu) (tedit 5877C982) (tstamp 59033E7B)
-    (at 55.88 173.12)
+    (at 67.31 419.1)
     (descr "D, A-405 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=5.2*2.7mm^2, , http://www.diodes.com/_files/packages/A-405.pdf")
     (tags "D A-405 series Axial Horizontal pin pitch 7.62mm  length 5.2mm diameter 2.7mm")
     (path /59018903/59015B29)

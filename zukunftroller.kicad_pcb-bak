@@ -1168,7 +1168,7 @@
   )
 
   (module Buttons_Switches_ThroughHole:SW_PUSH_6mm (layer F.Cu) (tedit 58134C96) (tstamp 5901ACBA)
-    (at 350.52 165.1)
+    (at 127 458.47)
     (descr https://www.omron.com/ecb/products/pdf/en-b3f.pdf)
     (tags "tact sw push 6mm")
     (path /5903A7BF/59015A81)
@@ -1792,7 +1792,7 @@
   )
 
   (module Buttons_Switches_ThroughHole:SW_PUSH_6mm (layer F.Cu) (tedit 58134C96) (tstamp 5901AD32)
-    (at 327.66 228.6)
+    (at 104.14 521.97)
     (descr https://www.omron.com/ecb/products/pdf/en-b3f.pdf)
     (tags "tact sw push 6mm")
     (path /59028C7D/59015A81)
@@ -2416,7 +2416,7 @@
   )
 
   (module Buttons_Switches_ThroughHole:SW_PUSH_6mm (layer F.Cu) (tedit 58134C96) (tstamp 5901ADAA)
-    (at 255.27 217.17)
+    (at 43.03 467.94)
     (descr https://www.omron.com/ecb/products/pdf/en-b3f.pdf)
     (tags "tact sw push 6mm")
     (path /590186ED/59015A81)
@@ -3184,7 +3184,7 @@
   )
 
   (module Diodes_ThroughHole:D_A-405_P7.62mm_Horizontal (layer F.Cu) (tedit 5877C982) (tstamp 59033DEF)
-    (at 392.43 215.9)
+    (at 168.91 509.27)
     (descr "D, A-405 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=5.2*2.7mm^2, , http://www.diodes.com/_files/packages/A-405.pdf")
     (tags "D A-405 series Axial Horizontal pin pitch 7.62mm  length 5.2mm diameter 2.7mm")
     (path /591B9093)
